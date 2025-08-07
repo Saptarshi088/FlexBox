@@ -19,7 +19,7 @@ html, body {
 }
 
 .header {
-    background-color: #5ad65a;
+    background-color: #ed5c0d;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -72,7 +72,8 @@ html, body {
     background-color: #fff;
     padding: 20px;
     margin-right: 20px;
-    background-color: #5ad6a0 ;
+    background-color: #16130d ;
+    color: white;
 }
 
 .main h2 {
@@ -80,7 +81,8 @@ html, body {
 }
 
 .featured {
-    background-color: #fff5cc;
+    background-color: wheat;
+    color: black;
     padding: 15px;
     margin: 20px 0;
     border-left: 5px solid orange;
@@ -98,13 +100,18 @@ html, body {
     margin-top: 25px;
     padding: 10px;
     background-color: #141e14;
-    box-shadow: 10px 10px 20px rgb(33, 114, 157)
+    /* border: 5px double wheat; */
+    /* box-shadow: 10px 10px 20px rgb(33, 114, 157) */
+    box-shadow: 10px 10px 150px wheat ;
+    border-right: 3px solid wheat;
+    border-bottom: 2px double wheat;
 }
 
 .sidebar {
     flex: 1;
     background-color: #e3e3e3;
     padding: 20px;
+    background-color: rgb(204, 184, 175);
 }
 
 .sidebar h3 {
@@ -116,7 +123,7 @@ html, body {
 }
 
 .footer {
-    background-color: #5ad65a;
+    background-color: #ed5c0d;
     color: white;
     display: flex;
     justify-content: space-around;
